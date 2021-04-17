@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreDisplay = document.querySelector('#score');
     const startBtn = document.querySelector('#start-button');
     const width = 10;
-    
 
     // the tetrominoes
     const lTetromino = [
@@ -41,4 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         [1, width+1, width*2+1, width*3+1],
         [width, width+1, width+2, width+3]
     ]
+
+    const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
 })
